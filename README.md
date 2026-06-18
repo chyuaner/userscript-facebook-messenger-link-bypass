@@ -44,3 +44,20 @@
    點擊上方 [⚡ 一鍵安裝] 按鈕，瀏覽器會自動彈出 Tampermonkey 的安裝確認畫面，點擊 **「安裝 (Install)」** 即可。
 3. **開始使用：**  
    安裝完成後，即可直接在 Facebook 或 Messenger 上點擊任何外部連結，腳本將會自動為您繞過跳轉警告。
+
+---
+
+## 🔖 瀏覽器書籤版本 (Bookmarklet)
+
+如果您不想安裝 Userscript 管理器（如 Tampermonkey），或是使用支援書籤但無法安裝擴充功能的手機瀏覽器，可以使用以下「書籤連結」：
+
+### 📥 安裝與使用方法：
+
+1. **新增書籤**：在您的瀏覽器中隨意新增一個書籤（例如將此頁面加入書籤）。
+2. **修改書籤內容**：
+   - **名稱 (Name)**：改為 `Bypass FB/Messenger Link` 或您喜歡的名字。
+   - **網址/連結 (URL)**：將原本的網址全部刪除，並貼上以下程式碼：
+     ```javascript
+     javascript:(function(){const u=new URLSearchParams(window.location.search).get('u');if(u){window.location.replace(decodeURIComponent(u));}else{alert('未偵測到跳轉網址！');}})();
+     ```
+3. **如何使用**：當您在 Facebook 或 Messenger 點擊連結，被擋在含有 `l.facebook.com/l.php?u=` 或 `l.messenger.com/l.php?u=` 的確認頁面時，**點擊該書籤**，即可直接跳轉至目的地！
