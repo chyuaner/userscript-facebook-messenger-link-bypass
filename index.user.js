@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Facebook & Messenger Link Bypass (All-in-One)
 // @namespace    https://greasyfork.org/
-// @version      1.1
+// @version      1.2
 // @description  自動繞過 Facebook/Messenger 的外連跳轉與警告頁面（flx/warn），直接前往乾淨的目標網址。
-// @author       Your Name
+// @author       Yuan Chiu <https://yuaner.tw>
 // @match        *://*.facebook.com/flms/faq/*
 // @match        *://*.facebook.com/l.php?u=*
 // @match        *://*.facebook.com/flx/warn/?u=*
