@@ -8,10 +8,10 @@
 
 請先確保您的瀏覽器已安裝 Userscript 管理器（如 [Tampermonkey 竄改猴](https://www.tampermonkey.net/)），然後點擊下方連結即可直接觸發安裝：
 
-[![Install with Tampermonkey](https://img.shields.io/badge/%E2%9A%A1%20%E4%B8%80%E9%8D%B5%E5%AE%89%E8%A3%9D-Tampermonkey-green?style=for-the-badge&logo=tampermonkey)](https://github.com/chyuaner/userscript-facebook-messenger-link-bypass/raw/main/index.user.js)
+[![Install with Tampermonkey](https://img.shields.io/badge/%E2%9A%A1%20%E4%B8%80%E9%8D%B5%E5%AE%89%E8%A3%9D-Tampermonkey-green?style=for-the-badge&logo=tampermonkey)](https://github.com/chyuaner/userscript-facebook-messenger-link-bypass/raw/refs/heads/master/index.user.js)
 
 > 🔗 **手動複製連結：**  
-> `https://github.com/chyuaner/userscript-facebook-messenger-link-bypass/raw/main/index.user.js`  
+> `https://github.com/chyuaner/userscript-facebook-messenger-link-bypass/raw/refs/heads/master/index.user.js`  
 
 ---
 
